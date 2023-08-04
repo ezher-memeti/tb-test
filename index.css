@@ -1,10 +1,7 @@
-/* body{
-    
-} */
 #header{
     position: relative;
     left: 0vh;
-    height: 200px;
+    height: 10vw;
     width: 100%;
 }
 #header1{
@@ -24,9 +21,9 @@
 }
 .header1-text{
     position: relative;
+    font-size: 2vh;
     left: 10%;
-    padding: 7px;
-    margin-right: 10px;
+    margin-right: 4%;
 }
 .header1-text:hover{
     color: rgb(215, 41, 36);
@@ -36,10 +33,11 @@
 #scm{
     color: rgb(215, 41, 36);
     position: relative;
-    left: 55%;
-    margin: 7px;
-    margin-right: 20px;
-    font-size: 35px;
+    margin-right: 4%;
+
+    right: -50%;
+    top: 1vh;
+    font-size: 3.5vh;
 }
 #scm:hover{
    transform: scale(1.2);
@@ -48,19 +46,20 @@
 .logos{
     position: relative;
     display: flex;
-    height: 100px;
-    width: 20%;
-    left: 6%;
+    height: 90%;
+    width: 25%;
+    left: 5%;
     color: white;
 }
 #logo{
-    height: 120%;
-
+    position: relative;
+    height: 12vh;
+    top: -0.5vh;
 }
 #name{
     position: relative;
     top: 12%;
-    font-size: 30px;
+    font-size: 3vh;
 }
 #about{
     width: 50%;
@@ -75,45 +74,42 @@
 .banner{
     position: relative;
     width: 35%;
-    background-color: rgba(215, 41, 36, 0.903);
+    background-color: rgba(255, 255, 255, 0.903);
     height: 70%;
     top: 15%;
 }
 #banner1{
     position: relative;
-    left: 4%;
+    left: 3%;
 }
 #banner2{
     position: relative;
-    left: 6%;
+    left: 2%;
 }
 .navbar{
     position: relative;
-    top: -14px;
-    height: 40px;
+    height:2vw;
     width: 100%;
-   
+    top: -14px;
 }
 .navbar ul{
     position: relative;
     list-style-type:none ;
     justify-content: center;
-    left: 0px;
     display: flex;
     height: 100%;
     width: 80%;
-    margin-left: 10%;
-    
+    left: 10%;
 }
 .navbar .main{
     text-align: center;
-    font-size: 18px;
+    font-size: 1.8vh;
     position: relative;
-    min-width: 3%;
+    min-width: 5%;
     left: -2%;
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding:  1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
     border-right: 2px solid rgb(215,41 ,36);
     margin-left: 2px;
     z-index: 1;
@@ -132,16 +128,18 @@
     position: relative;
 } */
 #dropdown .dropdown-content{
-    padding-top: 5px;
-    min-width: 93%;
+    padding-top: 9px;
     min-height: 100px;
+    width: 11.1vh;
     display: none;
     position: absolute;
     left: 0%;
+    top: 64%;
+    z-index: -1;
 }
 .dropdown-content a {
     color: rgb(255, 255, 255);
-    padding: 12px 16px;
+    padding: 1vh 1vh;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -164,13 +162,13 @@
 .primary-div{
     position: relative;
     width: 100%;
-    height: 900px;
+    height: 50vw;
     z-index: 0;
 }
 .secondary-div{
     position: relative;
     width: 100%;
-    height: 1100px;
+    height: 58vw;
 
 }
 .ads-space{
@@ -183,14 +181,14 @@
 .ads{
     position: relative;
     margin-left: 15%;
-    margin-top: 12%;
+    margin-top: 18%;
     width: 70%;
-    height: 28%;
+    height: 25%;
     background-color: black;
 }
 .footer{
     width: 100%;
-    height: 1000px;
+    height: 55vw;
     background-color: rgb(0, 0, 56);
 }
 #slider-background{
@@ -257,14 +255,17 @@
 }
 #main-news div h1{
     position: relative;
-    top: 10%;
+    top: 5%;
+    left: 4%;
     color: white;
     opacity: 120%;
+    font-size: 2vw;
 }
 .move-next{
     justify-content: center;
-    height: 8%;
-    width:4%;
+    width: 3vw;
+    height: 3.5vw;
+    font-size: 2vh;
     position: absolute;
     top: 45%;
     left: 5%;
@@ -310,7 +311,7 @@
 .slider-news div{
     background-image: linear-gradient(rgba(0,0,0,0)1%,rgba(0,0,0,1)120%);
     position: relative;
-    top:75%;    
+    top:77%;    
     width: 100%;
     height: 20%;
 }
@@ -321,9 +322,10 @@
     color: white;
     position: relative;
     font-size: 100%;
-    
     height: 100%;
     left: 2%;
+    font-size: 1.4vh;
+    top: 15%;
 }
 #second{
     background-color: rgb(0, 37, 79);
@@ -337,7 +339,6 @@
 }
 .title-first-page{
     position: relative;
-    font-size: 70%;
     display: inline-block;
     color: white;
     text-align: center;
@@ -352,6 +353,7 @@
     border-top-left-radius: 2vh;
 }
 .title-first-page h1{
+    font-size: 2.3vh;
     position:relative;
     display: inline;
     top: 22%;
@@ -412,8 +414,6 @@
     cursor: pointer;
     box-shadow: 0px 0px 10px black;
 }
-
-
 .Kose-yazilari-slider{
     float: left;
     position: relative;
@@ -432,6 +432,7 @@
     position: relative;
     width: 100%;
     height: 12%;
+    font-size: 1.5vh;
     border-bottom:1px solid rgba(255, 255, 255, 0.452) ;
 }
 .p-image{
