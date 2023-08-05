@@ -1,3 +1,6 @@
+/* body{
+    
+} */
 #header{
     position: relative;
     left: 0vh;
@@ -380,24 +383,53 @@
 }
 .news-cards{
     overflow-x:hidden;
+    overflow-y: visible;
     position: relative;
-    top: 10%;
-    margin-right:5%;
-    min-width: 30%;
-    height: 90%;
+    top: 15%;
+    margin-right:7%;
+    min-width: 45%;
+    height: 100%;
     background-color: rgba(255, 255, 255, 0);
+    /* border-right: 2px solid rgb(215,41 ,36);
+    border-left: 2px solid rgb(215,41 ,36); */
+    transition: ease-in-out 0.2s;
+}
+.news-cards .news-title{
+    text-align: center;
+    overflow-y: visible;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 23%;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    box-shadow: 0px 0px 5px black;
     border-bottom-right-radius:3vh;
     border-top-left-radius: 3vh;
+}
+.news-title h1{
+    font-size: 1.95vh;
+    position: relative;
+    top: 16%;
+}
+.news-cards .news-thumb{
+    overflow-y: visible;
+    background-color: rgb(255, 255, 255);
+    width: 94.6%;
+    height: 87%;
+    position: absolute;
+    top: 2%;
+    left: 2%;
     background-image: url(299512143_482746987194248_1169473139390080051_n.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    border-right: 2px solid rgb(215,41 ,36);
-    border-left: 2px solid rgb(215,41 ,36);
-    transition: ease-in-out 0.2s;
+    border-bottom-right-radius:3vh;
+    border-top-left-radius: 3vh;
+    
 }
 .news-cards2{
     position: relative;
-    top: 45%;
+    top: 5%;
     left: -100%;
     margin-right:5%;
     min-width: 30%;
@@ -408,11 +440,11 @@
     border-right: 5px solid rgb(215,41 ,36);
     border-left: 5px solid rgb(215,41 ,36);
 }
-.news-cards:hover{
-    background-color: rgb(215, 41, 36);
+.news-cards:hover div{
     transform: scale(1.01);
     cursor: pointer;
     box-shadow: 0px 0px 10px black;
+    outline-offset: 5px;
 }
 .Kose-yazilari-slider{
     float: left;
