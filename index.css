@@ -191,7 +191,7 @@
 }
 .footer{
     width: 100%;
-    height: 55vw;
+    height: 25vw;
     background-color: rgb(0, 0, 56);
 }
 #slider-background{
@@ -401,11 +401,8 @@
     width: 80%;
     height: 23%;
     position: absolute;
-    top: 75%;
+    top: 65.8%;
     left: 10%;
-    box-shadow: 0px 0px 3px black;
-    border-bottom-right-radius:3vh;
-    border-top-left-radius: 3vh;
 }
 .news-title h1{
     font-size: 1.95vh;
@@ -420,12 +417,10 @@
     position: absolute;
     top: 2%;
     left: 2%;
-    background-image: url(299512143_482746987194248_1169473139390080051_n.jpg);
-    background-size: contain;
+    background-image: url(download.jpeg);
+    background-size: cover;
     background-repeat: no-repeat;
-    border-bottom-right-radius:3vh;
-    border-top-left-radius: 3vh;
-    
+     
 }
 .news-cards2{
     position: relative;
@@ -445,6 +440,11 @@
     cursor: pointer;
     box-shadow: 0px 0px 10px black;
     outline-offset: 5px;
+}
+.news-cards:hover .news-title{
+    top: 74%;
+    background-color: rgb(215, 41, 36);
+    color: white;
 }
 .Kose-yazilari-slider{
     float: left;
@@ -512,4 +512,46 @@
     position: absolute;
     left: 30%;
     top: 50%;
+}
+.kose-cards{
+    display: flex;
+    position: relative;
+    margin-left: 4%;
+    right: 7%;
+    top: 15%;
+    height: 90%;
+    width: 44.6%;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 3vw;
+    border-bottom-right-radius: 3vw;
+    background-image: url(ersin.jpg);
+    background-size: contain;
+}
+/* .card-yazar{
+    width: 55%;
+    height: 15%;
+    position: relative;
+    background-color: rgb(215,41 ,36);
+    border-top-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+} */
+/* .card-yazar h1{
+    position: relative;
+    top: -8%;
+    text-align: center;
+    font-size: 100%;
+    color: white;
+} */
+/* .p-image-card{
+    position: relative;
+    top: -10%;
+    left: 35%;
+    width: 37%;
+    height: 45%;
+    border-radius: 100%;
+} */
+.kose-cards:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    opacity: 90%;
 }
